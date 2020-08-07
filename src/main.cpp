@@ -34,11 +34,11 @@ void setup(void)
     Serial.println("Setup\t\t- done");
     Serial.println("-----------------------------");
 
-    constexpr int note = ais2;
+    //constexpr int note = ais2;
 
     organ->allOff();
 
-    parser->play("Paula's Hamlet-Zoo3");
+    //parser->play("Paula's Hamlet-Zoo3");
 }
 
 elapsedMillis sw = 0;
